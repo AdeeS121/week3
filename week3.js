@@ -1,13 +1,13 @@
 
-let num1 = 1
-let num2 = 3
-let num3 = 5
 
-function allTotals(){
+function allTotals() {
+   num1 = 1;
+   num2 = 3;
+   num3 = 5;
    getNums()
-   let average = getAvg()
-   let sum = getSum()
-   let product = getProduct()
+   getAvg()
+   getSum()
+   getProduct()
 }
 
 function getNums() {
@@ -29,6 +29,7 @@ function getProduct() {
    console.log(`product of numbers in the list: ${product}`);
   
 }
+return allTotals()
 
 console.log(allTotals())
 
