@@ -13,25 +13,21 @@ function allTotals() {
   console.log(addSum);
   console.log(product);
 }
-
 function getNums(num1, num2, num3) {
-  console.log(`numbers passed to the function are: ${num1}, ${num2}, ${num3}`);
+  return `numbers passed to the function are: ${num1}, ${num2}, ${num3}`;
 }
-
 function getAvg(num1, num2, num3) {
   average = (num1 + num2 + num3) / 3;
-  console.log(`average of numbers: ${average}`);
+  return `average of numbers: ${average}`;
 }
-
 function getSum(num1, num2, num3) {
   addSum = num1 + num2 + num3;
-  console.log(`sum of numbers: ${addSum}`);
+  return `sum of numbers: ${addSum}`;
 }
-
 function getProduct(num1, num2, num3) {
   let product = num1 * num2 * num3;
-  console.log(`product of numbers in the list: ${product}`);
+  return `product of numbers in the list: ${product}`;
 }
+return allTotals();
 
 console.log(allTotals());
-
