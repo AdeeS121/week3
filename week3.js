@@ -3,10 +3,10 @@ function allTotals() {
   let num2 = 3;
   let num3 = 5;
 
-  allNums = getNums(num1, num2, num3);
-  average = getAvg(num1, num2, num3);
-  addSum = getSum(num1, num2, num3);
-  product = getProduct(num1, num2, num3);
+  let allNums = getNums(num1, num2, num3);
+  let average = getAvg(num1, num2, num3);
+  let addSum = getSum(num1, num2, num3);
+  let product = getProduct(num1, num2, num3);
 
   console.log(allNums);
   console.log(average);
